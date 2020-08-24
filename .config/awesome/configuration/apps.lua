@@ -19,7 +19,7 @@ return {
     editor = 'sublime', -- gui text editor
     social = 'discord',
     game = rofi_command,
-    files = 'nemo',
+    files = 'nautilus',
     music = 'spotify' 
   },
   -- List of apps to start once on start-up
@@ -36,6 +36,7 @@ return {
      '/usr/bin/barrier',
      '/usr/bin/copyq',
      'nitrogen --restore &',
+     '/usr/bin/caffeine',
      '~/.local/bin/wallpaper', -- wallpaper-reddit script
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
